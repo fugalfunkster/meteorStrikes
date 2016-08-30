@@ -1,0 +1,15 @@
+* Meteor Strikes GeoSpatial Visualization
+
+** Description
+For my last D3 project with FreeCodeCamp, I charted meteorite impacts across the glode, with a mouseover tooltip for the meteor's name and mass. But a simple Mercator projection would not do, oh no, I wanted to be non-conformist. So I used the Pierce quincuncial projection, a conformal projection that doesn't exagerate scale as badly as the (better known) Mercator projection. The Pierce projection's distortion occurs mostly in areas of open ocean, better preserving the shape of the continents. Also, it just looks cool.
+
+** View Project 
+http://www.fugalfunkster.com/meteorStrikes
+
+** Todo list
+- [ ] make D3 chart width responsive
+
+** Objectives [3/3]
+- [X] User Story: I can see where all Meteorites landed on a world map.
+- [X] User Story: I can tell the relative size of the meteorite, just by looking at the way it's represented on the map.
+- [X] User Story: I can mouse over the meteorite's data point for additional data.
